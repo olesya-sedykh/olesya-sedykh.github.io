@@ -13,7 +13,8 @@
         <div class="header">
             <!--<div class="container"></div>-->
             <div class="logotip">
-                <img src="img\logo.svg" alt="Фотогалерея">
+                <img src="img\logotip.svg" alt="Фотогалерея">
+                <div class="logotip_text">Фотогалерея</div>
             </div>
             <div class="autorization">
                 <a href = "#registration_href">Регистрация</a>
@@ -37,66 +38,66 @@
 
     <div class="container">
         <div class="main_page">
-            <figure class="img1">
+            <div class="img1">
                 <img src = "img\img1.svg" alt="img1">
                 <div class="date1">Добавлено&nbsp15&nbspавгуста</div>
                 <a href class="name1">July.&nbspSummer&nbspbutterflies.</a>
-            </figure>
-            <figure class="img2">
+            </div>
+            <div class="img2">
                 <img src = "img\img2.svg" alt = "img2">
                 <div class="date2">Добавлено&nbsp15&nbspавгуста</div>
                 <a href class="name2">Summer&nbspbutterflies.</a>
-            </figure>
-            <figure class="img3">
+            </div>
+            <div class="img3">
                 <img src = "img\img3.svg" alt = "img3">
                 <div class="date3">Добавлено&nbsp15&nbspавгуста</div>
                 <a href class="name3">Cape&nbspPoint&nbsppeninsula&nbspSouth&nbspAfrica</a>
-            </figure>
-            <figure class="img4">
+            </div>
+            <div class="img4">
                 <img src = "img\img4.svg" alt = "img4">
                 <div class="date4">Добавлено&nbsp15&nbspавгуста</div>
                 <a href class="name4">Antelope&nbspCanyon</a>
-            </figure>
-            <figure class="img5">
+            </div>
+            <div class="img5">
                 <img src = "img\img5.svg" alt = "img5">
                 <div class="date5">Добавлено&nbsp15&nbspавгуста</div>
                 <a href class="name5">Waves&nbspcrashing&nbspin&nbspBrittany,&nbspFrance</a>
-            </figure>
-            <figure class="img6">
+            </div>
+            <div class="img6">
                 <img src = "img\img6.svg" alt = "img6">
                 <div class="date6">Добавлено&nbsp15&nbspавгуста</div>
                 <a href class="name6">After&nbspthe&nbsprain</a>
-            </figure>
-            <figure class="img7">
+            </div>
+            <div class="img7">
                 <img src = "img\img7.svg" alt = "img7">
                 <div class="date7">Добавлено&nbsp15&nbspавгуста</div>
                 <a href class="name7">Milkyway&nbsptrail&nbspover&nbspdeath&nbspvalley</a>
-            </figure>
-            <figure class="img8">
+            </div>
+            <div class="img8">
                 <img src = "img\img8.svg" alt = "img8">
                 <div class="date8">Добавлено&nbsp15&nbspавгуста</div>
                 <a href class="name8">Nature</a>
-            </figure>
-            <figure class="img9">
+            </div>
+            <div class="img9">
                 <img src = "img\img9.svg" alt = "img9">
                 <div class="date9">Добавлено&nbsp15&nbspавгуста</div>
                 <a href class="name9">July.&nbspSummer&nbspbutterflies.</a>
-            </figure>
-            <figure class="img10">
+            </div>
+            <div class="img10">
                 <img src = "img\img10.svg" alt = "img10">
                 <div class="date10">Добавлено&nbsp15&nbspавгуста</div>
                 <a href class="name10">Wheat&nbspperiod.</a>
-            </figure>
-            <figure class="img11">
+            </div>
+            <div class="img11">
                 <img src = "img\img11.svg" alt = "img11">
                 <div class="date11">Добавлено&nbsp15&nbspавгуста</div>
                 <a href class="name11">A&nbspbaby&nbspjumping&nbspspider&nbspon yellow petals</a>
-            </figure>
-            <figure class="img12">
+            </div>
+            <div class="img12">
                 <img src = "img\img12.svg" alt = "img12">
                 <div class="date12">Добавлено&nbsp15&nbspавгуста</div>
                 <a href class="name12">July.&nbspSummer&nbspbutterflies.</a>
-            </figure>
+            </div>
         </div>
     </div>
 
@@ -125,9 +126,11 @@
     <div class="autorization_wrap" id="autorization_href" aria-hidden="true">
         <div class="autorization_window" role = "dialog" aria-modal="true">
 
-            <button class="close">
-                <img src = "img\close.svg" alt = "close">
-            </button>
+            <div class="close">
+                <a href="#close">
+                    <img src = "img\close.svg" alt = "close">
+                </a>
+            </div>
 
             <div class="start_autorization_registration">
                 <div class="start_registration">
@@ -139,11 +142,11 @@
             </div>
 
             <div class="login_password">
-                <div class="login">
+                <div class="autorization_login">
                     <input type="email" placeholder="Email" name="login" />
                 </div>
         
-                <div class="password">
+                <div class="autorization_password">
                     <input type="password" placeholder="Пароль" name="password" />
                 </div>
             </div>
@@ -153,7 +156,7 @@
 
             <div class="warning">
                 <img src = "img\info.svg" alt = "info">
-                Все&nbspполя&nbspобязательны&nbspдля&nbspзаполнения
+                Все поля обязательны для заполнения
             </div>
         </div>
     </div>
@@ -161,9 +164,11 @@
     <div class="registration_wrap" id="registration_href" aria-hidden="true">
         <div class="registration_window" role = "dialog" aria-modal="true">
 
-            <button class="close">
-                <img src = "img\close.svg" alt = "close">
-            </button>
+            <div class="close">
+                <a href="#close">
+                    <img src = "img\close.svg" alt = "close">
+                </a>
+            </div>
 
             <div class="start_autorization_registration">
                 <div class="start_registration">
@@ -204,7 +209,7 @@
 
             <div class="agreement">
                 <input type="checkbox"/>
-                Согласен&nbspна&nbspобработку&nbspперсональных&nbspданных
+                Согласен на обработку персональных данных
             </div>
 
             <button data-hystclose class="registration_close">
@@ -213,10 +218,21 @@
 
             <div class="registration_warning">
                 <img src = "img\info.svg" alt = "reg_info">
-                Все&nbspполя&nbspобязательны&nbspдля&nbspзаполнения
+                Все поля обязательны для заполнения
             </div>
         </div>
     </div>
+
+    <!-- <script>
+        let autorization_login = document.querySelector('.autorization_login');
+        let autorization_password = document.querySelector('.autorization_password');
+        // console.log(autorization_password.ariaValueText);
+        if ((autorization_login.ariaValueText != null) && (autorization_password.ariaValueText != null)) {
+            console.log("Yes")
+            let autorization_button = document.querySelector('.autorization_close');
+            autorization_button.style.color = "white";
+        }
+    </script> -->
 
     <script src="app.js"></script>
 </body>
